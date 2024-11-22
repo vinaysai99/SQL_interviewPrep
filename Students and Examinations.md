@@ -1,4 +1,4 @@
-## Day 11: Students and Examinations
+## Day 12: Students and Examinations
 
 The goal is to calculate how many times each student attended each subject exam. This requires combining data from three tables: `Students`, `Subjects`, and `Examinations`.
 
