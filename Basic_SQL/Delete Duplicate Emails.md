@@ -1,0 +1,117 @@
+### Delete Duplicate Emails
+
+The task is to delete duplicate rows in the `Person` table based on the `email` column. For each duplicate, retain only the row with the smallest `id`.
+
+---
+
+### Problem Details
+
+1. **Input**:
+   - **Table: `Person`**
+     - Columns:
+       - `id`: Primary key (unique for each row).
+       - `email`: Email address (duplicates possible).
+
+2. **Output**:
+   - The updated `Person` table where only one row for each unique email is retained, and it corresponds to the smallest `id`.
+
+---
+
+### SQL Solution
+
+```sql
+WITH CTE AS (
+    SELECT 
+        email,
+        MIN(id) AS min_id
+    FROM Person
+    GROUP BY email
+)
+DELETE FROM Person
+WHERE id NOT IN (
+    SELECT min_id 
+    FROM CTE
+);
+```
+
+---
+
+### Explanation
+
+1. **Step 1 - Create a CTE**:
+   - Use a Common Table Expression (CTE) to identify the smallest `id` for each `email`:
+     ```sql
+     SELECT email, MIN(id) AS min_id
+     FROM Person
+     GROUP BY email;
+     ```
+
+2. **Step 2 - Delete Duplicate Rows**:
+   - Use the `NOT IN` condition to delete rows where the `id` is not in the list of `min_id` values:
+     ```sql
+     DELETE FROM Person
+     WHERE id NOT IN (
+         SELECT min_id 
+         FROM CTE
+     );
+     ```
+
+---
+
+### Example Outputs
+
+#### Example 1:
+
+**Input**:
+
+| id | email            |
+|----|------------------|
+| 1  | john@example.com |
+| 2  | bob@example.com  |
+| 3  | john@example.com |
+
+**Output**:
+
+| id | email            |
+|----|------------------|
+| 1  | john@example.com |
+| 2  | bob@example.com  |
+
+**Explanation**:
+- The email `john@example.com` is duplicated. Only the row with `id = 1` is retained because it has the smallest `id`.
+
+---
+
+### Alternate Solutions
+
+#### Without CTE:
+```sql
+DELETE FROM Person
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM Person
+    GROUP BY email
+);
+```
+
+#### Using `ROW_NUMBER`:
+```sql
+WITH RankedEmails AS (
+    SELECT 
+        id,
+        ROW_NUMBER() OVER (PARTITION BY email ORDER BY id) AS row_num
+    FROM Person
+)
+DELETE FROM Person
+WHERE id IN (
+    SELECT id 
+    FROM RankedEmails
+    WHERE row_num > 1
+);
+```
+
+---
+
+### Link
+
+[Delete Duplicate Emails - LeetCode](https://leetcode.com/problems/delete-duplicate-emails/)
