@@ -7,3 +7,4 @@ Use window functions to perform calculations across a set of rows and learn vari
 Discover the many SQL functions that can be applied to fields of numeric, datetime, string, and NULL data types
 Apply advanced querying techniques to common data analysis scenarios, including pivoting data, rolling calculations, and more
 --
+next section
