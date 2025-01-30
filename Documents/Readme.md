@@ -8,3 +8,4 @@ Discover the many SQL functions that can be applied to fields of numeric, dateti
 Apply advanced querying techniques to common data analysis scenarios, including pivoting data, rolling calculations, and more
 --
 next section
+subqueries and ctes
