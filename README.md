@@ -58,6 +58,7 @@ sql-interview-prep/
 ├── Database_Design/      # Normalization, ER diagrams, and schemas
 ├── LeetCode/             # Real interview questions with solutions
 ├── Resources/            # SQL references, cheat sheets, and links
+├── Documents/            # SQL references, cheat sheets, and links
 └── README.md             # Documentation
 ```
 
