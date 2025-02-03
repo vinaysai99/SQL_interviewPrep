@@ -14,7 +14,7 @@ Review the big six clauses of a SQL query along with other commonly used keyword
 ## Subqueries & CTEs
 - Learn how to write subqueries and Common Table Expressions (CTEs).
 - Understand the best situations for using certain techniques.
-
+- Recursive CTE's
 ---
 
 ## Window Functions
