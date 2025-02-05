@@ -10,3 +10,6 @@ Apply advanced querying techniques to common data analysis scenarios, including 
 next section
 subqueries and ctes
 understanding ctes and subqueries
+--
+Window Functions
+--
