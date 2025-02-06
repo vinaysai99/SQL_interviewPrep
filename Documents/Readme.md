@@ -12,4 +12,5 @@ subqueries and ctes
 understanding ctes and subqueries
 --
 Window Functions
+write notes and complete it anyway today.
 --
