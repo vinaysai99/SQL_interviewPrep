@@ -13,4 +13,10 @@ understanding ctes and subqueries
 --
 Window Functions
 write notes and complete it anyway today.
+Dividing window functions into 5 topics:
+1. Aggregate functions
+2. ranking/numbering
+3. Finding the value
+4. Filter in a window by row values
+5. Statistical functions
 --
