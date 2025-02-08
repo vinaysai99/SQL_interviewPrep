@@ -19,4 +19,6 @@ Dividing window functions into 5 topics:
 3. Finding the value
 4. Filter in a window by row values
 5. Statistical functions
+
+Running Totals,Moving Averages
 --
