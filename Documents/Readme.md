@@ -21,4 +21,5 @@ Dividing window functions into 5 topics:
 5. Statistical functions
 
 Running Totals,Moving Averages
+SQL Functions
 --
