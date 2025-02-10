@@ -23,3 +23,4 @@ Dividing window functions into 5 topics:
 Running Totals,Moving Averages
 SQL Functions
 --
+PYTHON
