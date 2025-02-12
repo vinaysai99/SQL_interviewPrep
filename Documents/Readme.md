@@ -23,4 +23,4 @@ Dividing window functions into 5 topics:
 Running Totals,Moving Averages
 SQL Functions
 --
-PYTHON
+Least,Greatest functions to perform on rows instead of columns.
