@@ -42,4 +42,4 @@ Review the big six clauses of a SQL query along with other commonly used keyword
 ---
 
 ## Final Project
-Leverage everything you've learned to track how Major League Baseball (MLB) player statistics have changed over time and across different teams in the league.
+Leverage everything you've learned to track how Major League Baseball (MLB) player statistics have changed over time and across different teams in the league.Upload this into personal portifolio.
