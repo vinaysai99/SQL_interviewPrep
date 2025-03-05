@@ -1,0 +1,28 @@
+# Database and System Files
+*.db
+*.sqlite
+*.bak
+*.tmp
+
+# Credentials
+*.env
+*.credentials
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE Specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Backup Files
+*.backup
+*.gho
+*.ori
+*.orig
