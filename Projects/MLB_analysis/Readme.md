@@ -7,6 +7,30 @@ Advanced SQL analytics project exploring comprehensive baseball player data, foc
 - Career trajectory analysis
 - Player comparative insights
 
+## Project Directory Structure
+```
+baseball-sql-analytics/
+│
+├── database/
+│   ├── create_statements_final_project_mysql.sql
+│   └── final_project.sql
+│
+├── docs/
+│   ├── schema_explanation.md
+│   ├── analysis_insights.md
+│   └── query_breakdowns.md
+│
+├── queries/
+│   ├── school_analysis.sql
+│   ├── salary_analysis.sql
+│   ├── player_career_analysis.sql
+│   └── player_comparison_analysis.sql
+│
+├── .gitignore
+├── README.md
+└── LICENSE
+```
+
 ## 📊 Database Schema
 
 ### Tables
