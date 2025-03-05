@@ -83,9 +83,6 @@ Execute analysis queries in `final_project.sql` to explore:
 ## 🤝 Contributing
 Please read [CONTRIBUTING.md](Contributing.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📧 Contact
 Vinay Mandala
 [Linkedin](www.linkedin.com/in/vinaymandala99)
