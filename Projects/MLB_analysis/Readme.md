@@ -1,5 +1,9 @@
 # Baseball Analytics SQL Project
 
+<p align="center">
+  <img src="docs/mlb_sql.jpeg" alt="Baseball SQL Project" style="width: 100vw; height: auto; display: block;">
+</p>
+
 ## 🏆 Project Overview
 Advanced SQL analytics project exploring comprehensive baseball player data, focusing on:
 - School and player demographics
