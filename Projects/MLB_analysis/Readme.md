@@ -16,6 +16,8 @@ baseball-sql-analytics/
 │   └── final_project.sql
 │
 ├── docs/
+│   ├── Readme.md
+│   ├── Comprehensive_analysis.md.md
 │   ├── schema_explanation.md
 │   ├── analysis_insights.md
 │   └── query_breakdowns.md
