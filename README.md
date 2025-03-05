@@ -56,8 +56,7 @@ sql-interview-prep/
 ├── Intermediate_SQL/     # Joins, subqueries, and case statements
 ├── Advanced_SQL/         # Window functions, CTEs, and performance tuning
 ├── Database_Design/      # Normalization, ER diagrams, and schemas
-├── LeetCode/             # Real interview questions with solutions
-├── Resources/            # SQL references, cheat sheets, and links
+├── Projects/             # SQL Projects, and analysis
 ├── Documents/            # SQL references, cheat sheets, and links
 └── README.md             # Documentation
 ```
