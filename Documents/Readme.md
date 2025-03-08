@@ -24,3 +24,4 @@ Running Totals,Moving Averages
 SQL Functions
 --
 Least,Greatest functions to perform on rows instead of columns.
+Complete gfg webpages.
